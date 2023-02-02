@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todos Apps</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo list</h1>
+        <form action="" class="search">
+          <div class="d-flex gap-2">
+            <input type="text" name="search" class="form-control m-auto" placeholder="search todos" />
+            <input type="submit" class="btn btn-sm btn-light" value="Search" />
+          </div>
+        </form>
+      </header>
+
+      <ul class="list-group todos mx-auto text-light">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>play mariokart</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>dancing with moonlight</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <span>such a fine of a</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+      </ul>
+
+      <form class="add text-center my-4">
+        <label class="text-light mb-2">Add a new todo...</label>
+        <div class="d-flex gap-2">
+          <input type="text" name="add" class="form-control m-auto" />
+          <input type="submit" class="btn btn-sm btn-light" value="Add" />
+        </div>
+      </form>
+    </div>
+
+    <script src="Todos.js"></script>
+    <script src="https://kit.fontawesome.com/8147c50b66.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
